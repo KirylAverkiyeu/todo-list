@@ -1,0 +1,12 @@
+li {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li h3 {
+  white-space: nowrap;
+  max-width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
